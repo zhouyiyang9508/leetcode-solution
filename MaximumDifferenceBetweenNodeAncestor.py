@@ -2,6 +2,7 @@ from typing import Optional
 
 import TreeNode
 
+
 def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
     def helper(node, cur_max, cur_min):
         if not node:
@@ -14,4 +15,3 @@ def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         return max(left, right)
 
     return helper(root, root.val, root.val)
-
