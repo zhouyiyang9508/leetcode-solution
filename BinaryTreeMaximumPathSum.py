@@ -17,8 +17,8 @@ def maxPathSum(self, root: Optional[TreeNode]) -> int:
         # pick left + right + node as a path
         max_path = max(max_path, left + right + node.val)
         # pick left + node or right + node as a partial path
-        return max(left + node.val, right + node.val)
-    
+        return max(left + node.val, right + node.val) 
+
     calc_max_path(root)
 
     return max_path
