@@ -1,4 +1,3 @@
-
 def checkValidString(s: str) -> bool:
     balance = 0
     for char in s:
@@ -20,6 +19,7 @@ def checkValidString(s: str) -> bool:
             return False
 
     return True
+
 
 if __name__ == '__main__':
     print(checkValidString("()"))
