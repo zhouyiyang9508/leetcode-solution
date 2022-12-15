@@ -14,7 +14,6 @@ class Pair:
 def topKFrequent(words: List[str], k: int) -> List[str]:
     min_heap = []
     counter = Counter(words)
-    print(counter)
 
     for word, freq in counter.items():
         heappush(min_heap, Pair(word, freq))
