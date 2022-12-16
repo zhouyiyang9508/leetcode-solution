@@ -9,4 +9,6 @@ def findMinDifference(timePoints: List[str]) -> int:
     return min((y - x) for x, y in zip(minutes, minutes[1:]))
 
 if __name__ == '__main__':
-    print(findMinDifference(["23:59","00:00"]))
+    path = "abcd"
+    print(path[:-1])
+    # print(findMinDifference(["23:59","00:00"])
