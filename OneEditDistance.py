@@ -1,4 +1,3 @@
-
 def isOneEditDistance(s: str, t: str) -> bool:
     ls, lt = len(s), len(t)
 
@@ -19,6 +18,7 @@ def isOneEditDistance(s: str, t: str) -> bool:
                 return s[i + 1:] == t[i:]
 
     return lt + 1 == ls
+
 
 if __name__ == '__main__':
     print(isOneEditDistance("abc", "ab"))
