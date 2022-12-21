@@ -10,6 +10,7 @@ def removeDuplicates(s: str) -> str:
             stack.append(s[i])
     return ''.join(stack)
 
+
 if __name__ == '__main__':
     print(removeDuplicates("abbaca"))
 
