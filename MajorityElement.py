@@ -10,6 +10,7 @@ def majorityElement(nums: List[int]) -> int:
         count += (1 if candidate == nums[i] else - 1)
     return candidate
 
+
 if __name__ == '__main__':
     print(majorityElement([2,2,1,1,1,2,2]) == 2)
 
