@@ -40,6 +40,7 @@ def sortList(head: Optional[ListNode]) -> Optional[ListNode]:
 
     return merge(left, right)
 
+
 if __name__ == '__main__':
     n1 = ListNode(-1)
     n2 = ListNode(5)
